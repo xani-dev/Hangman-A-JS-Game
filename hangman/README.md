@@ -3,6 +3,9 @@ A fun mini Javascript project.
 
 This project was built purely with JS. 
 
+# Demo
+![Hangman Game Demo](https://user-images.githubusercontent.com/71361700/148828144-2b6dcaae-2cad-4ac7-8e90-f8a2d9c58ef9.gif)
+
 ## What it does?: 
 1. Picks a random word.
 2. Takes the player’s guess.
@@ -10,8 +13,6 @@ This project was built purely with JS.
 4. Keeps track of letters the player has guessed.
 5. Shows the player their progress.
 6. Finishes when the player has guessed the word. 
-
-![Hangman Game Demo](https://test.gif)
 
 ### Pseudocode:
 ```javascript
@@ -34,7 +35,7 @@ while the word has not been guessed {
 Congratulate the player on guessing the word
 ```
 ## How to Run: 
-In order to run this project, you 
+In order to run this project, you may use your local server or mount it with Create React App.
 
 ## Future improvements: 
 
