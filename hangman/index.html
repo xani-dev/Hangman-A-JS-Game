@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Little Hangman Game</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    
+    <h1>HANGMANN</h1>
+    
+    <div id="guessDiv">
+      Your Guess: <input id="userGuess" maxlength="1" size="1" onchange="getGuess()" />
+    </div>
+    <canvas id="canvas" width="600px" height="600px"> </canvas>
+    <script type="text/javascript" src="gameFunctions.js"></script>
+    <script type="text/javascript" src="drawFunctions.js"></script>
+    <script type="text/javascript" src="hangman.js"></script>
+
+
+  </body>
+</html>
